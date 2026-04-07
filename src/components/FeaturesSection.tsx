@@ -5,19 +5,19 @@ const features = [
     num: "01",
     title: "60秒入力で\n複数社から一括見積",
     desc: "事業所の所在地・業種・ごみの種類と量を入力するだけ。事業系一般廃棄物・産業廃棄物どちらも対応。全国300社超の収集運搬・処分業者ネットワークから、条件に合う業者が見積を提示します。エリアごとの縄張りに縛られず最適な業者を選べます。",
-    img: "/images/ref/fm/fea_img01.png",
+    img: "/images/illustrations/buildings.svg",
   },
   {
     num: "02",
     title: "平均30%の\n廃棄物コスト削減",
     desc: "古くからの取引業者による値上げ要求も、相見積もりにかけることで適正価格に。店舗・施設運営者の年間コスト削減実績多数。契約切替の書類対応も無料でサポートします。",
-    img: "/images/ref/fm/fea_img02.png",
+    img: "/images/illustrations/factory-trucks.svg",
   },
   {
     num: "03",
     title: "新規開業・\n法令対応まで安心",
     desc: "新店舗・新施設の開業準備中でも、地域の業者選定からご相談OK。加盟業者は一般廃棄物・産廃の正規許可業者のみで、電子マニフェスト・リサイクル・行政書類作成まで、排出者責任のコンプライアンスをワンストップで支援します。",
-    img: "/images/ref/fm/fea_ttl_img.png",
+    img: "/images/illustrations/worker.svg",
   },
 ];
 

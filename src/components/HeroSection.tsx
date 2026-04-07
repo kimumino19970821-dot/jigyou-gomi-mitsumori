@@ -1,18 +1,5 @@
 import Image from "next/image";
 
-// Industry icons for the grid (using item icons from the reference assets)
-const bizIcons = [
-  { src: "/images/ref/item/1.png", label: "飲食店" },
-  { src: "/images/ref/item/2.png", label: "ホテル" },
-  { src: "/images/ref/item/3.png", label: "病院" },
-  { src: "/images/ref/item/4.png", label: "介護施設" },
-  { src: "/images/ref/item/5.png", label: "オフィスビル" },
-  { src: "/images/ref/item/6.png", label: "食品工場" },
-  { src: "/images/ref/item/7.png", label: "スーパー" },
-  { src: "/images/ref/item/8.png", label: "店舗" },
-  { src: "/images/ref/item/9.png", label: "その他" },
-];
-
 export function HeroSection() {
   return (
     <section className="relative bg-[#ffde35] overflow-hidden">
@@ -60,25 +47,56 @@ export function HeroSection() {
             </p>
           </div>
 
-          {/* Industry grid */}
-          <div className="grid grid-cols-3 gap-2 mb-6">
-            {bizIcons.map((icon, i) => (
-              <div
-                key={i}
-                className="aspect-square bg-white/20 rounded-lg flex flex-col items-center justify-center p-1"
-              >
-                <Image
-                  src={icon.src}
-                  alt={icon.label}
-                  width={60}
-                  height={60}
-                  className="w-2/3 h-2/3 object-contain"
-                />
-                <span className="text-[9px] text-white font-bold mt-0.5">
-                  {icon.label}
-                </span>
-              </div>
-            ))}
+          {/* Illustration grid - 2 col layout with category illustrations */}
+          <div className="grid grid-cols-2 gap-3 mb-6">
+            <div className="bg-white rounded-xl p-3 flex flex-col items-center">
+              <Image
+                src="/images/illustrations/buildings.svg"
+                alt="オフィスビル・商業施設"
+                width={120}
+                height={120}
+                className="w-full h-24 object-contain"
+              />
+              <span className="text-[10px] text-[#333] font-bold mt-1">
+                オフィス・商業施設
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-3 flex flex-col items-center">
+              <Image
+                src="/images/illustrations/factory-trucks.svg"
+                alt="工場・収集運搬"
+                width={120}
+                height={120}
+                className="w-full h-24 object-contain"
+              />
+              <span className="text-[10px] text-[#333] font-bold mt-1">
+                工場・収集運搬
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-3 flex flex-col items-center">
+              <Image
+                src="/images/illustrations/businessman.svg"
+                alt="店舗・事業者"
+                width={120}
+                height={120}
+                className="w-full h-24 object-contain"
+              />
+              <span className="text-[10px] text-[#333] font-bold mt-1">
+                店舗・事業者
+              </span>
+            </div>
+            <div className="bg-white rounded-xl p-3 flex flex-col items-center">
+              <Image
+                src="/images/illustrations/worker.svg"
+                alt="現場作業・分別"
+                width={120}
+                height={120}
+                className="w-full h-24 object-contain"
+              />
+              <span className="text-[10px] text-[#333] font-bold mt-1">
+                現場作業・分別
+              </span>
+            </div>
           </div>
 
           {/* Stats row */}

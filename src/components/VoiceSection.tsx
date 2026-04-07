@@ -9,7 +9,7 @@ const voices = [
     after: "18",
     unit: "万円/月",
     reduction: "28",
-    img: "/images/ref/top/voice_img1.svg",
+    img: "/images/illustrations/businessman.svg",
   },
   {
     title: "古い取引業者からの脱却で適正価格に",
@@ -19,7 +19,7 @@ const voices = [
     after: "56",
     unit: "万円/月",
     reduction: "30",
-    img: "/images/ref/top/voice_img2.svg",
+    img: "/images/illustrations/buildings.svg",
   },
   {
     title: "産廃マニフェスト対応もまとめて依頼",
@@ -29,7 +29,7 @@ const voices = [
     after: "24",
     unit: "万円/月",
     reduction: "31",
-    img: "/images/ref/top/voice_img3.svg",
+    img: "/images/illustrations/worker.svg",
   },
   {
     title: "食品残渣のリサイクル率向上",
@@ -39,7 +39,7 @@ const voices = [
     after: "84",
     unit: "万円/月",
     reduction: "30",
-    img: "/images/ref/top/voice_img4.svg",
+    img: "/images/illustrations/factory-trucks.svg",
   },
 ];
 

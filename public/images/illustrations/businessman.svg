@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Shadow platform -->
+  <ellipse cx="200" cy="360" rx="75" ry="12" fill="#3a3a3a"/>
+  <ellipse cx="200" cy="355" rx="72" ry="10" fill="#9a9a9a"/>
+
+  <!-- Shoes -->
+  <ellipse cx="178" cy="350" rx="18" ry="7" fill="#2a2a2a"/>
+  <ellipse cx="222" cy="350" rx="18" ry="7" fill="#2a2a2a"/>
+
+  <!-- Pants (dark) -->
+  <path d="M 168 235 L 160 345 L 190 345 L 198 275 L 202 275 L 210 345 L 240 345 L 232 235 Z" fill="#2a2a2a"/>
+
+  <!-- Belt -->
+  <rect x="168" y="228" width="65" height="8" fill="#1a1a1a"/>
+
+  <!-- White shirt -->
+  <path d="M 160 135 Q 160 120 180 120 L 220 120 Q 240 120 240 135 L 248 210 Q 248 235 228 235 L 172 235 Q 152 235 152 210 Z" fill="#ffffff" stroke="#c8c8c8" stroke-width="1"/>
+
+  <!-- Collar -->
+  <path d="M 185 120 L 200 145 L 215 120 Z" fill="#ffffff" stroke="#b0b0b0" stroke-width="1"/>
+
+  <!-- Button line -->
+  <line x1="200" y1="140" x2="200" y2="225" stroke="#d0d0d0" stroke-width="1"/>
+  <circle cx="200" cy="160" r="1.5" fill="#a0a0a0"/>
+  <circle cx="200" cy="180" r="1.5" fill="#a0a0a0"/>
+  <circle cx="200" cy="200" r="1.5" fill="#a0a0a0"/>
+
+  <!-- Right arm (hand to chin - thinking pose) -->
+  <path d="M 238 135 Q 255 145 258 175 Q 260 200 250 205 Q 240 200 240 180 Z" fill="#ffffff" stroke="#c8c8c8" stroke-width="1"/>
+
+  <!-- Left arm (hand in pocket) -->
+  <path d="M 162 135 Q 148 150 150 205 Q 152 225 168 228 Q 175 200 170 160 Z" fill="#ffffff" stroke="#c8c8c8" stroke-width="1"/>
+
+  <!-- Right hand at chin -->
+  <circle cx="222" cy="105" r="7" fill="#f5d4b0"/>
+
+  <!-- Neck -->
+  <rect x="192" y="100" width="16" height="22" fill="#f5d4b0"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="82" rx="28" ry="32" fill="#f5d4b0"/>
+
+  <!-- Hair -->
+  <path d="M 172 70 Q 175 45 200 43 Q 225 45 228 70 Q 228 78 225 80 L 175 80 Q 172 78 172 70 Z" fill="#2a1a10"/>
+
+  <!-- Eyes -->
+  <ellipse cx="192" cy="85" rx="1.5" ry="2.5" fill="#2a2a2a"/>
+  <ellipse cx="208" cy="85" rx="1.5" ry="2.5" fill="#2a2a2a"/>
+</svg>

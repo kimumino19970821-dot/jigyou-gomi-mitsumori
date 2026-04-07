@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Smoke -->
+  <ellipse cx="130" cy="50" rx="25" ry="15" fill="#d9d9d9"/>
+  <ellipse cx="115" cy="75" rx="35" ry="20" fill="#e5e5e5"/>
+  <ellipse cx="140" cy="100" rx="30" ry="18" fill="#d9d9d9"/>
+  <ellipse cx="120" cy="125" rx="28" ry="16" fill="#ededed"/>
+
+  <!-- Factory body -->
+  <rect x="90" y="145" width="30" height="110" fill="#a8a8a8"/>
+  <rect x="120" y="170" width="180" height="85" fill="#bcbcbc"/>
+  <polygon points="120,170 135,145 300,145 285,170" fill="#c8c8c8"/>
+
+  <!-- Factory windows -->
+  <rect x="160" y="155" width="15" height="12" fill="#ffffff"/>
+  <rect x="185" y="155" width="15" height="12" fill="#ffffff"/>
+  <rect x="210" y="155" width="15" height="12" fill="#ffffff"/>
+  <rect x="235" y="155" width="15" height="12" fill="#ffffff"/>
+  <rect x="260" y="155" width="15" height="12" fill="#ffffff"/>
+
+  <!-- Factory stripes -->
+  <rect x="120" y="185" width="180" height="6" fill="#ffffff"/>
+  <rect x="120" y="210" width="180" height="6" fill="#ffffff"/>
+
+  <!-- Factory door -->
+  <rect x="185" y="225" width="50" height="30" fill="#4a4a4a"/>
+
+  <!-- Truck 1 (back) -->
+  <g transform="translate(190, 230)">
+    <!-- body back (dumpster) -->
+    <rect x="50" y="15" width="90" height="50" fill="#3a8ec4"/>
+    <polygon points="50,15 55,5 145,5 140,15" fill="#4a9ed4"/>
+    <!-- cab -->
+    <rect x="5" y="20" width="50" height="45" fill="#3a8ec4"/>
+    <rect x="12" y="27" width="30" height="18" fill="#c8e0f0"/>
+    <!-- light -->
+    <rect x="5" y="50" width="6" height="6" fill="#ffa500"/>
+    <!-- wheels -->
+    <circle cx="25" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="25" cy="70" r="4" fill="#6a6a6a"/>
+    <circle cx="100" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="100" cy="70" r="4" fill="#6a6a6a"/>
+    <circle cx="125" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="125" cy="70" r="4" fill="#6a6a6a"/>
+  </g>
+
+  <!-- Truck 2 (front) -->
+  <g transform="translate(110, 280)">
+    <rect x="50" y="15" width="90" height="50" fill="#3a8ec4"/>
+    <polygon points="50,15 55,5 145,5 140,15" fill="#4a9ed4"/>
+    <rect x="5" y="20" width="50" height="45" fill="#3a8ec4"/>
+    <rect x="12" y="27" width="30" height="18" fill="#c8e0f0"/>
+    <rect x="5" y="50" width="6" height="6" fill="#ffa500"/>
+    <circle cx="25" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="25" cy="70" r="4" fill="#6a6a6a"/>
+    <circle cx="100" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="100" cy="70" r="4" fill="#6a6a6a"/>
+    <circle cx="125" cy="70" r="9" fill="#2a2a2a"/>
+    <circle cx="125" cy="70" r="4" fill="#6a6a6a"/>
+  </g>
+</svg>
