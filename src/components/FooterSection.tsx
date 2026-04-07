@@ -1,7 +1,7 @@
 export function FooterSection() {
   return (
     <footer className="bg-[#141413] text-white py-8">
-      <div className="max-w-[640px] mx-auto px-4 text-center">
+      <div className="w-full px-4 text-center">
         <div className="mb-4">
           <div className="inline-flex items-center gap-2">
             <div className="bg-[#0aac1d] text-white font-black text-xs px-2 py-1 rounded">

@@ -22,7 +22,7 @@ const businesses = [
 export function CompanySection() {
   return (
     <section id="company" className="bg-white py-12">
-      <div className="max-w-[640px] mx-auto px-4">
+      <div className="w-full px-4">
         <h2 className="text-center mb-2">
           <span className="inline-block bg-[#4abfd7] text-white font-black text-lg px-6 py-2 rounded-full">
             運営会社

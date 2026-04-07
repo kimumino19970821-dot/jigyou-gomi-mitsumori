@@ -30,7 +30,7 @@ const volumes = [
 export function FormSection() {
   return (
     <section id="form" className="bg-[#4abfd7] py-12">
-      <div className="max-w-[640px] mx-auto px-4">
+      <div className="w-full px-4">
         <div className="text-center mb-6">
           <p className="text-[#ffde35] font-black text-2xl leading-tight">
             60秒で完了・無料一括見積

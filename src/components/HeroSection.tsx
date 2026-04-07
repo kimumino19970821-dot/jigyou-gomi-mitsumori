@@ -3,7 +3,7 @@ import Image from "next/image";
 export function HeroSection() {
   return (
     <section className="relative bg-[#ffde35] overflow-hidden">
-      <div className="max-w-[640px] mx-auto px-4 pt-4 pb-8 relative">
+      <div className="w-full px-4 pt-4 pb-8 relative">
         {/* Header logo */}
         <div className="mb-3 flex items-center gap-2">
           <div className="bg-[#0aac1d] text-white font-black text-sm px-3 py-1.5 rounded">
