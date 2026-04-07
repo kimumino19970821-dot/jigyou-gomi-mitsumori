@@ -7,9 +7,20 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-sans: var(--font-noto-sans-jp), "Noto Sans Japanese", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, monospace;
   --font-heading: var(--font-sans);
+  /* LP design tokens — extracted from fuyouhin.support/lp/garbage_house/ */
+  --color-lp-yellow: #ffde35;
+  --color-lp-cyan: #4abfd7;
+  --color-lp-cyan-light: #dbf2f7;
+  --color-lp-cyan-bg: #e4f5f9;
+  --color-lp-green: #0aac1d;
+  --color-lp-pink: #f84b6c;
+  --color-lp-orange: #ff6b35;
+  --color-lp-text: #141413;
+  --color-lp-text-sub: #666666;
+  --color-lp-text-mid: #333333;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
